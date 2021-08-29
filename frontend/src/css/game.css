@@ -1,0 +1,14 @@
+.matchId {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  z-index: 999;
+  background: white;
+  width: 100%;
+  left: 0;
+  height: 4em;
+  border-bottom: 1px solid grey;
+}
+.gameContainer {
+  margin-top: 5rem;
+}
