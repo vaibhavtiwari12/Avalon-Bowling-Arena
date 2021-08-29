@@ -9,7 +9,7 @@ I have already build the version of code and it is present inside the backend fo
 2) go to `backend` folder and run - `npm install`
 3) start the `mongod` service (please make sure connection is open on 27017 port)
 4) run `npm start` on `backend folder`.
-5) go to browser on [a link](http://localhost:9000) to see the application
+5) go to browser on [http://localhost:9000](http://localhost:9000) to see the application
 
 
 ### Steps to start the server (with re-building the frontend)
