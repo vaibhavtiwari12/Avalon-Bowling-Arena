@@ -26,7 +26,7 @@ This is implemented with react-native and expo.
 
 NOTE : since I am running the application to have the connection tunneled out using the ngrok I was not able to generate the .apk fiel for the app to run directly. Alternatively I can share the code and expo has a good client app (expo) which can run this app by just scanning the QR code. 
 
-### **steps to install the Mobile Application ** 
+### **steps to install the Mobile Application** 
 
 #### Setup 
 1) Install [ngrok](https://ngrok.com/download)
@@ -35,7 +35,7 @@ NOTE : since I am running the application to have the connection tunneled out us
 
 ### Application Setup
 
-1) Clone the repository <repository Name>
+1) Clone the repository [BowlingArena](https://github.com/vaibhavtiwari12/Avalon-BowlingArena-Mobile-Application)
 2) Install expo cli using `npm install expo-cli -g`
 3) In the folder of mobile applicaitn run `npm install`
 4) Run the `expo start`
