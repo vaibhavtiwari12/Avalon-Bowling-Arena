@@ -24,7 +24,7 @@ I have implemented the Hybrid application which has the webview which is loading
 
 This is implemented with react-native and expo. 
 
-NOTE : since I am running the application to have the connection tunneled out using the ngrok I was not able to generate the .apk fiel for the app to run directly. Alternatively I can share the code and expo has a good client app (expo) which can run this app by just scanning the QR code. 
+NOTE : since I am running the application to have the connection tunneled out using the ngrok I was not able to generate the .apk file for the app to run directly. Alternatively I can share the code and expo has a good client app (expo) which can run this app by just scanning the QR code. 
 
 ### **steps to install the Mobile Application** 
 
