@@ -18,7 +18,7 @@ I have already build the version of code and it is present inside the backend fo
 3) Once the build is completed follow step 2 to 5 mention in the section "Steps to start the server (without re-building the frontend)".
 
 
-## **Running Mobile Application **
+## **Running Mobile Application**
 
 I have implemented the Hybrid application which has the webview which is loading the mobile website. 
 
@@ -35,7 +35,7 @@ NOTE : since I am running the application to have the connection tunneled out us
 
 ### Application Setup
 
-1) Clone the repository [BowlingArena](https://github.com/vaibhavtiwari12/Avalon-BowlingArena-Mobile-Application)
+1) Clone the repository [Bowling Arena Mobile Application](https://github.com/vaibhavtiwari12/Avalon-BowlingArena-Mobile-Application)
 2) Install expo cli using `npm install expo-cli -g`
 3) In the folder of mobile applicaitn run `npm install`
 4) Run the `expo start`
