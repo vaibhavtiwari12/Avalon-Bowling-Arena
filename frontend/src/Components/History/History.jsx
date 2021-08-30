@@ -5,6 +5,7 @@ import HistoryCard from "./HistoryCard";
 
 const History = () => {
   const [games, setGames] = useState([]);
+  const [error, setError] = useState(false);
   const [isLoadingFinished, setisLoadingFinished] = useState(false);
   useEffect(async () => {
     try {
@@ -12,14 +13,15 @@ const History = () => {
       setGames(gameHistory);
       setisLoadingFinished(true);
     } catch (e) {
-      console.log("error", e);
+      setisLoadingFinished(true);
+      setError(true);
     }
   }, []);
   return (
     <div>
       <NavBar showButtons={true} />
       <div className="application">
-        {isLoadingFinished && (
+        {isLoadingFinished && !error && (
           <div>
             {games && games.length > 0 ? (
               games.map((game) => {
@@ -34,6 +36,12 @@ const History = () => {
         )}
       </div>
       {!isLoadingFinished && <div className="text-center">Loading</div>}
+      {error && (
+        <div className="text-center">
+          <h4>SERVER ERROR</h4>
+          unable to fetch data from server.Please check the connection
+        </div>
+      )}
     </div>
   );
 };
