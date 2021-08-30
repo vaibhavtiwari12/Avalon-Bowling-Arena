@@ -16,7 +16,7 @@ const CustomModal = ({
     onHandleToggle();
   };
   return (
-    <Modal isOpen={modal} toggle={handleToggle}>
+    <Modal isOpen={modal} toggle={handleToggle} backdrop="static">
       <ModalHeader toggle={handleToggle}>{heading}</ModalHeader>
       {description && <ModalBody>{description}</ModalBody>}
       <ModalBody>{children}</ModalBody>

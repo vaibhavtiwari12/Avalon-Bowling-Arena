@@ -10,6 +10,7 @@ export const generateAndSaveMatchID = (dispatch) => {
 
 export const areFramesCompleted = (gameObject) => {
   if (
+    gameObject &&
     Object.keys(gameObject).length > 0 &&
     !Object.keys(gameObject).includes("winner")
   ) {
